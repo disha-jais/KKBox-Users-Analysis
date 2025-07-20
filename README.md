@@ -11,26 +11,26 @@ This project analyzes customer churn for KKBox, a music streaming service, using
 
 ## 📁 Project Structure
 
-KKBox-Churn-Analysis/
-│
-├── data/
-│   ├── train_v2.csv
-│   ├── members_v3.csv
-│   ├── train_v2_sample.csv
-│   └── members_v3_sample.csv
-│
-├── kkbox_churn_analysis.ipynb
+<pre>
+KKBox-Churn-Analysis/  
+│  
+├── data/  
+│   ├── train_v2.csv  
+│   ├── members_v3.csv  
+│   ├── train_v2_sample.csv  
+│   └── members_v3_sample.csv  
+│  
+├── kkbox_churn_analysis.ipynb  
 └── README.md
-
-
+</pre>
 
 ## 📌 How to Run
 
-1. Clone the repo:
-git clone https://github.com/disha-jais/KKBox-Users-Analysis
+1. Clone the repo:  
+   `git clone https://github.com/disha-jais/KKBox-Users-Analysis`
 
-2. Open `kkbox_churn_analysis.ipynb` in Jupyter Notebook or VSCode.
-3. Make sure the `data` folder has the required `.csv` files.
+2. Open `kkbox_churn_analysis.ipynb` in Jupyter Notebook or VSCode.  
+3. Make sure the `data` folder has the required `.csv` files.  
 4. Run the notebook cells step-by-step.
 
 ## 📦 Dataset Source
@@ -48,4 +48,4 @@ git clone https://github.com/disha-jais/KKBox-Users-Analysis
 ## ✅ Author
 
 **Disha Jaiswal**  
-[LinkedIn](https://www.linkedin.com/in/disha) | [GitHub](https://github.com/your-username)
+[LinkedIn](https://www.linkedin.com/in/disha) | [GitHub](https://github.com/disha-jais)
