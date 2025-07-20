@@ -48,4 +48,4 @@ KKBox-Churn-Analysis/
 ## ✅ Author
 
 **Disha Jaiswal**  
-[LinkedIn](https://www.linkedin.com/in/disha) | [GitHub](https://github.com/disha-jais)
+[LinkedIn](https://www.linkedin.com/in/disha-jais/) | [GitHub](https://github.com/disha-jais)
