@@ -14,13 +14,14 @@ This project analyzes customer churn for KKBox, a music streaming service, using
 KKBox-Churn-Analysis/
 │
 ├── data/
-│ ├── train_v2.csv
-│ ├── members_v3.csv
-│ ├── train_v2_sample.csv
-│ └── members_v3_sample.csv
+│   ├── train_v2.csv
+│   ├── members_v3.csv
+│   ├── train_v2_sample.csv
+│   └── members_v3_sample.csv
 │
 ├── kkbox_churn_analysis.ipynb
 └── README.md
+
 
 
 ## 📌 How to Run
