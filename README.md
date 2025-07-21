@@ -56,42 +56,12 @@ This project uses two datasets:
 
 ---
 
-## 📊 Visual Explorations
-
-This project includes rich visualizations built using:
-
-- **Pandas** for data wrangling  
-- **Seaborn & Matplotlib** for charts and EDA  
-- Custom mapping for city codes → real city names (e.g., Taipei, Taoyuan)
-
-Example charts:
-- Churn distribution  
-- Churn by gender  
-- City-wise churn (named regions)  
-- Age group comparison  
-- Churn by registration method
-
----
-
-## 🧪 Sample Code Snippet
-
-```python
-# Calculate churn rate by age group
-bins = [0, 18, 25, 35, 45, 60, 100]
-labels = ['<18', '18–25', '26–35', '36–45', '46–60', '60+']
-train_merged['age_group'] = pd.cut(train_merged['bd'], bins=bins, labels=labels)
-
-age_churn = train_merged.groupby('age_group')['is_churn'].mean() * 100
-```
-
----
-
 ## 🔍 Business Questions Answered
 
-1. Are men or women more likely to churn? → **No significant difference**
-2. Do some cities have unusually high churn? → **Yes (e.g., Taoyuan, Tainan)**
-3. Does the way users register influence churn? → **Yes, dramatically**
-4. Does user age affect churn? → **Yes, younger users are more likely to churn**
+1. **Are men or women more likely to churn?** → **No significant difference**
+2. **Do some cities have unusually high churn?** → **Yes (e.g., Taoyuan, Tainan)**
+3. **Does the way users register influence churn?** → **Yes, dramatically**
+4. **Does user age affect churn?** → **Yes, younger users are more likely to churn**
 
 ---
 
@@ -99,10 +69,10 @@ age_churn = train_merged.groupby('age_group')['is_churn'].mean() * 100
 
 | Recommendation                                      | Action Item                                        |
 |-----------------------------------------------------|----------------------------------------------------|
-| 🎯 Target 18–29 Users                               | Youth-focused campaigns & retention initiatives   |
-| 🛠️ Improve Onboarding for Method 3 & 4             | Review user flows, address drop-off points        |
-| 🗺️ Focus on High-Churn Cities                      | Tailored outreach in Taoyuan, New Taipei, Tainan  |
-| 🧪 Create Samples for Testing                      | Sample datasets saved for reproducible testing    |
+| 🎯 **Target 18–29 Users**                           | Youth-focused campaigns & retention initiatives    |
+| 🛠️ **Improve Onboarding for Method 3 & 4**          | Review user flows, address drop-off points        |
+| 🗺️ **Focus on High-Churn Cities**                   | Tailored outreach in Taoyuan, New Taipei, Tainan  |
+| 🧪 **Create Samples for Testing**                   | Sample datasets saved for reproducible testing    |
 
 ---
 
@@ -117,28 +87,20 @@ members_sample = members_df.sample(n=300, random_state=1)
 
 train_sample.to_csv("data/train_v2_sample.csv", index=False)
 members_sample.to_csv("data/members_v3_sample.csv", index=False)
-```
-
----
 
 ## 📚 Skills Applied
-
-- 🧹 Data Cleaning & Merging  
-- 📊 Exploratory Data Analysis (EDA)  
-- 🔍 Insight-Driven Storytelling  
-- 🐍 Python: `pandas`, `matplotlib`, `seaborn`
+- 🧹 **Data Cleaning & Merging**
+- 📊 **Exploratory Data Analysis (EDA)**
+- 🔍 **Insight-Driven Storytelling**
+- 🐍 **Python**: pandas, matplotlib, seaborn
 
 ---
 
 ## ✅ Project Outcome
-
 From raw CSVs to actionable insights, this analysis tells a clear story around **why users churn**, with strong visuals and solid recommendations to improve **user retention** at KKBox.
 
 ---
 
 ## 📬 Contact
-
-Made with ❤️ by [Disha]  
+Made with ❤️ by [DJ]  
 Got feedback or suggestions? Open an issue or connect via GitHub!
-
-
