@@ -141,8 +141,4 @@ From raw CSVs to actionable insights, this analysis tells a clear story around *
 Made with ❤️ by [Disha]  
 Got feedback or suggestions? Open an issue or connect via GitHub!
 
----
 
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
