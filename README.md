@@ -80,7 +80,6 @@ This project uses two datasets:
 
 To speed up development and sharing:
 
-```python
 # Save 300-row samples
 train_sample = train_df.sample(n=300, random_state=1)
 members_sample = members_df.sample(n=300, random_state=1)
