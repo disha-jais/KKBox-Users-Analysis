@@ -100,6 +100,8 @@ From raw CSVs to actionable insights, this analysis tells a clear story around *
 
 ---
 
-## 📬 Contact
-Made with ❤️ by [DJ]  
-Got feedback or suggestions? Open an issue or connect via GitHub!
+## 💬 Get in Touch
+
+Analysed and built by [DJ]  
+Got feedback or ideas you'd like analysed? [Open an issue](#) or reach out on [GitHub](#) — let's improve it together!
+
