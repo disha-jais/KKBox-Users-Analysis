@@ -103,5 +103,5 @@ From raw CSVs to actionable insights, this analysis tells a clear story around *
 ## 💬 Get in Touch
 
 Analysed and built by [DJ]  
-Got feedback or ideas you'd like analysed? [Open an issue](#) or reach out on [GitHub](#) — let's improve it together!
+Got feedback or ideas you'd like analysed? [Open an issue](https://github.com/disha-jais/KKBox-Users-Analysis/issues) or reach out on [GitHub](https://github.com/disha-jais) — let's improve it together!
 
